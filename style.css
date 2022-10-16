@@ -1,0 +1,524 @@
+html {
+    display: flex;
+}
+
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+#titre_hover, h2, h3 {
+    font-family: 'Kanit', sans-serif;
+}
+
+p, ul {
+    font-family: 'Poppins', sans-serif;
+}
+
+.button_action {
+    font-family: 'Kanit', sans-serif;
+    z-index: 50;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 115vh;
+    background-image: url('images/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+}
+
+
+
+nav img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logoimg, #navburger {
+    padding: 20px;
+    height: 70px;
+    width: auto;
+    z-index: 2;
+}
+
+#titre_hover {
+    font-size: 8vh;
+}
+
+#home {
+    top: 350px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#home h1 {
+    margin: 0;
+}
+
+#home p {
+    font-size: 4vh;
+}
+
+#home .button_action {
+    font-size: 3vh;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border-radius: 75px;
+    border: none;
+}
+
+.button_action:hover {
+    color: ivory;
+    background-color:#D76AA4;
+    transition: 1.2s;
+    text-shadow: 3px 3px #f8f8f836;
+}
+
+#connecte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#skate_connecte {
+    width: 65vh;
+}
+
+#texte_connecte {
+    font-size: 3.5vh;
+}
+
+#texte_connecte h2, p {
+    text-align: center;
+}
+
+.liste_connecte {
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+#plan_hoverboard1 {
+    display: flex;
+    justify-content: center;
+}
+
+#plan_hoverboard1 img {
+    width: 65%;
+    height: auto;
+}
+
+#vitesse {
+    width: 450px;
+    border-radius: 25px;
+}
+
+#puissance {
+    margin-top: 6vh;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#texte_puissance {
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+#texte_puissance ul {
+    text-align: left;
+}
+
+.liste_puissance {
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+
+#plan_hoverboard2 {
+    margin-bottom: 6vh;
+    display: flex;
+    justify-content: center;
+}
+
+#plan_hoverboard2 img{
+    width: 30%;
+}
+
+#ecologique {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#terre {
+    width: 45%;
+    height: auto;   
+}
+
+#texte_ecologique {
+    font-size: 3.5vh;
+    text-align: center;
+    margin-right: 5vh;
+}
+
+#texte_ecologique  ul {
+    text-align: left;
+}
+
+.liste_eco {
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+#cmd_action {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#skate_rose {
+    margin-top: -90px;
+    padding: 0px;
+    width: 35%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#texte_action {
+    margin-top: 8%;
+    font-size: 3.5vh;
+    text-align: center;
+    margin-bottom: -91px;
+}
+
+.button_action_2 {
+    margin-bottom: 8%;
+    background-color: transparent;
+    border-color: black;
+    font-size: 3vh;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border-radius: 75px;
+
+}
+
+.button_action_2:hover {
+    color: ivory;
+    background-color:#D76AA4;
+    transition: 1.2s;
+    text-shadow: 3px 3px #f8f8f836;
+}
+
+#bloc_images_confiance {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#bloc_images_confiance img {
+    width: 45%;
+}
+
+#confidence {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#titre_confiance {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#hoverboard_logo {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/* ################################## 
+footer
+ ################################## */
+
+#img_reseaux {
+    display: flex;
+    justify-content: center;
+}
+
+#twitter {
+    width: 10%;
+}
+
+#instagram {
+    width: 10%;
+}
+#facebook {
+    width: 10%;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+#page_footer p a {
+    margin : 0 1%;
+    text-decoration: none;
+    color: black;
+}
+
+/* 
+ Mostly all smartphones
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    #logoimg, #navburger {
+        padding: 20px;
+        height: 50px;
+        width: auto;
+        z-index: 2;
+    }
+    /* ###### HEADER ######## */
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        width: 100%;
+        height: 41vh;
+        background-image: url('images/background.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    
+    }
+
+    #titre_hover {
+        font-size: 2.4vh;
+    }
+    
+    #home {
+        top: 90px;
+        left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
+    
+    #home p {
+        font-size: 2vh;
+    }
+    
+    #home .button_action {
+        font-size: 2vh;
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        border-radius: 75px;
+        border: none;
+    }
+
+      /* ###### section 1 ########*/
+
+      #connecte {
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+
+      #texte_connecte {
+        margin-right: 5vh;
+        font-size: 2vh;
+    }
+
+    #texte_connecte ul li {
+        font-size: 1.9vh;
+    }
+
+
+    #skate_connecte {
+        width: 42vh;
+    }
+
+    #plan_hoverboard1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    #puissance {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+
+    #texte_puissance {
+        font-size: 2.2vh;
+        text-align: center;
+    }
+
+    #texte_puissance ul li {
+        font-size: 1.9vh;
+
+    }
+
+    #vitesse {
+        width: 26.5vh;
+        border-radius: 25px;
+    }
+
+    #plan_hoverboard2 img{
+        width: 75%;
+    }
+
+    #ecologique {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    #terre {
+        width: 45%;
+        height: auto;   
+    }
+    
+    #texte_ecologique {
+        font-size: 2.2vh;
+        text-align: center;
+    }
+
+    #texte_ecologique ul li {
+        font-size: 1.9vh;
+    }
+
+    #skate_rose {
+        margin-top: -90px;
+        padding: 0px;
+        width: 35%;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    #texte_action {
+        font-size: 2.5vh;
+        text-align: center;
+        margin-bottom: -42px;
+    }
+    
+    .button_action_2 {
+        margin-bottom: 100px;
+        background-color: transparent;
+        border-color: black;
+        font-size: 2.5vh;
+        padding-top: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        border-radius: 75px;
+    
+    }
+
+    #bloc_images_confiance {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    #bloc_images_confiance img {
+        width: 25%;
+    }
+
+    #titre_confiance {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    #plan_hoverboard1 {
+        margin-top: 1vh;
+        margin-bottom: 6vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #plan_hoverboard2 {
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .liste_connecte {
+        font-size: 1.5vh;
+        font-weight: bold;
+    }
+
+    .liste_puissance {
+        font-size: 1.5vh;
+        font-weight: bold;
+    }
+
+    .liste_eco {
+        font-size: 1.5vh;
+        font-weight: bold;
+    }
+}
